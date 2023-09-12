@@ -42,7 +42,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-left: 290px;
+    flex-direction: column;
 
 }
 .container2{
@@ -72,7 +72,7 @@ body{
         align-items: center;
         justify-content: center;
         padding: 15px 15px;
-        width: 400px;
+        width: 300px;
     }
 }
 @media (min-width: 300px) and (max-width:768px){
@@ -80,7 +80,8 @@ body{
         display: flex;
         align-items: center;
         justify-content: center;
-        margin-left: 350px;
+       
+
        
     }
 }
@@ -115,10 +116,10 @@ body{
     /* justify-content: center; */
     /* align-items: center; */
     flex-direction: column;
-   
+   align-items: center;
     width: 100%;
     max-width: 613px;
-    margin-left: 310px;
+    
     
 }
 .todo li{
