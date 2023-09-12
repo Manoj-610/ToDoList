@@ -15,8 +15,17 @@ body{
 
 }
 @media (min-width: 300px) and (max-width:768px){
-    body{
-        background-color: rgb(153, 69, 231);
+    .container1{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+@media (min-width: 300px) and (max-width:768px){
+    .container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
     
 }
@@ -28,6 +37,13 @@ body{
     text-align: center;
    
    
+}
+.container1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 290px;
+
 }
 .container2{
     display: flex;
@@ -43,12 +59,30 @@ body{
     width: 100%;
     max-width: 500px;
     height: 63px;
-    padding: 4px;
+    padding: 10px;
 
     
     ;
 
     
+}
+@media (min-width: 300px) and (max-width:768px){
+    .container2{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 15px 15px;
+        width: 400px;
+    }
+}
+@media (min-width: 300px) and (max-width:768px){
+    .container1{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 350px;
+       
+    }
 }
 #plusid{
     background-color:rgb(168, 94, 237) ;
