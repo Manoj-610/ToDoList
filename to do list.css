@@ -14,12 +14,19 @@ body{
     background-color: white;
 
 }
+@media (min-width: 300px) and (max-width:768px){
+    body{
+        background-color: rgb(153, 69, 231);
+    }
+    
+}
 .container{
     margin: 2px;
     padding: 10px;
     background-color: rgb(168, 94, 237);
     color: white;
     text-align: center;
+   
    
 }
 .container2{
